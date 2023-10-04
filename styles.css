@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1600px;
+    justify-content: center;
+}
+
+.square {
+    background-color: white;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+}
