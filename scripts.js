@@ -1,8 +1,7 @@
 let container = document.querySelector(".container");
 
-// let square = document.createElement("div");
-// square.innerText = "testing!";
-let gridSize = prompt("What's the size of the square?");
+// let gridSize = prompt("What's the size of the square?");
+let gridSize = 16;
 
 for (let i = 0; i < gridSize; i++) {
     for (let i = 0; i < gridSize; i++) {
@@ -12,3 +11,8 @@ for (let i = 0; i < gridSize; i++) {
     }   
 }
 
+let squares = document.querySelectorAll(".square");
+
+squares.forEach((sq) => {
+    sq.style.backgroundColor = "white";
+});
